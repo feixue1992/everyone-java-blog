@@ -39,7 +39,7 @@ public class WebUserServiceTest extends AbstractSpringContextTest {
 //        user.setPasswordSalt("zuoxiaolong");
 //        user.setNickname("lzh");
 //        webUserService.insert(user);
-        Assert.assertNotNull(webUserService.selectByPrimaryKey(3));
+        Assert.assertNotNull(webUserService.selectByPrimaryKey(6));
     }
 
 }
